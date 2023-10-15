@@ -1,5 +1,6 @@
 body{
-    background-color: #ebadb8;
+    background-color: black;/*#ebadb8*/
+    color: white;
     margin: 0px;
     padding: 0px;
 }
@@ -26,7 +27,7 @@ body{
     height: 320px;
     border: 2px solid rgb(240, 206, 227);
     padding: 20px;
-    background-color: #f0c1cb;
+    background-color: #9d5d3;/*#f0c1cb*/
     margin: 20px;
 }
 .bestseller-box-card-img{
