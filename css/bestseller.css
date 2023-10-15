@@ -23,62 +23,64 @@ body{
     flex-wrap: wrap;
 }
 .bestseller-box-card{
-    width: 270px;
-    height: 320px;
+    width: 280px;
+    height: 360px;
     border: 2px solid rgb(240, 206, 227);
-    padding: 20px;
-    background-color: #9d5d3;/*#f0c1cb*/
+    padding: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    background-color: #9d5d33;/*#f0c1cb*/
     margin: 20px;
 }
 .bestseller-box-card-img{
-    width: 200px;
+    width: 180px;
     display: block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 5px black;
     margin: 0px auto;
-    margin-top: 20px;
 }
-/*.bestseller-box-card-img:hover{
-    transform: scale(1.2);
+.bestseller-box-card-img:hover{
+    transform: scale(1.05);
     animation-direction: alternate;
     transition: 0.5s;
-}*/
-.bestseller-box-card:hover{
+}
+/*.bestseller-box-card:hover{
     box-shadow: 2px 2px 5px 5px #383b38;
     transition: 0.5s;
     transform: scale(1.01);
     animation-direction: alternate;
     transition: 0.5s;
-}
+}*/
 .bestseller-box-card-img-title{
-    font-family: "Gill Sans", sans-serif;
     text-align: center;
     font-size: 18px;
-    margin: 0px;
+    margin: 20px;
+    font-family: "Papyrus", Fantasy;
     font-weight: bold;
 }
 .bestseller-box-card-img-dis{
-    font-family: "Gill Sans", sans-serif;
     text-align: center;
     font-size: 10px;
 }
 .bestseller-box-card-price{
-    font-family: "Gill Sans", sans-serif;
     text-align: center;
 }
 .bestseller-box-card-btn-1{
     border: 2px solid rgba(37,40,43,.08);
-    background-color: #ebadb8;
-    padding: 7px 16px;
+    background-color: #f0c1cb;
+    padding: 6px 20px;
     cursor: pointer;
 }
 .bestseller-box-card-btn-2{
     border: 2px solid #25282b;
-    padding: 7px 20px;
+    padding: 6px 26px;
     cursor: pointer;
     background-color: #25282b;
     color: wheat;
 }
 .bestseller-box-card-btn-1:hover{
-    background-color: #f0c1cb;
+    background-color: #25282b;
+    color: wheat;
 }
 .bestseller-box-card-btn-2:hover{
     background-color: #f0c1cb;
