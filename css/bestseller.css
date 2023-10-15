@@ -41,7 +41,7 @@ body{
     transition: 0.5s;
 }*/
 .bestseller-box-card:hover{
-    box-shadow: 5px 5px 5px 5px #383b38;
+    box-shadow: 2px 2px 5px 5px #383b38;
     transition: 0.5s;
     transform: scale(1.01);
     animation-direction: alternate;
