@@ -1,21 +1,21 @@
 body {
          padding: 0;
          margin: 0;
-        background-color: black;
+        background-color: #ebadb8;
     }
 a{
     color: black;
 }
 .nav {
-        background-color:#4d2600;
-        color: white;
+        background-color:#f0c1ca;
+        color: black;
         margin-top: -10px;
         height: 30px;
         width: 100%;
         padding: 10px;
         position: fixed;
     }
- h5 {
+.start-line {
         text-align: center;
         margin: 10px;
     }
@@ -25,7 +25,7 @@ a{
             justify-content: space-between; 
             align-items: center;
             background-color: white;
-            height: 40px;
+            height: 60px;
             margin-top: 40px;
             position: fixed;
             width: 100%;
@@ -58,7 +58,7 @@ a{
         margin-right: 20px;
         }
 .img{
-    height: 800px;
+    height: 550px;
     width: 100%;
     margin-top: 80px;
 }
@@ -69,32 +69,31 @@ a{
     margin-top: 20px; 
 }
 .card{
-    background-color: black;
-    height: 300px;
-    width: 300px;
+    background-color: #f0c1cb;
+    height: 360px;
+    width: 310px;
     border-radius: 10px;
     border: solid #4d2e00 2px ;
     display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card_img{
-    height: 100px;
-    margin: 10px;
+    padding: 10px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
 }
-h1{
-    color:  #e68a00;
+.card_heading{
+    color: #e18497  ;
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+    text-align: center;
     
 }
-.card-1{
+.desc{
     text-align: center;
-}
-.images{
-    height: 170px;
-    width: 170px;
-    display: inline-block;
-    margin: -200px;
-    margin-bottom: -270px;
-    margin-left: -420px;
-    border-radius: 100%;
 }
