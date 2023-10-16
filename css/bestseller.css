@@ -1,6 +1,5 @@
 body{
-    background-color: black;/*#ebadb8*/
-    color: white;
+    background-color: #ebadb8;
     margin: 0px;
     padding: 0px;
 }
@@ -8,6 +7,7 @@ body{
     width: 100%;
 }
 .bestseller-box{
+    margin: 30px auto;
     padding: 0px 20px;
 }
 .bestseller-box-title{
@@ -21,22 +21,24 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 .bestseller-box-card{
     width: 280px;
-    height: 360px;
+    border-radius: 5px;
+    height: auto;
     border: 2px solid rgb(240, 206, 227);
     padding: 15px;
     font-family: "Gill Sans", sans-serif;
     color: black;
-    background-color: #9d5d33;/*#f0c1cb*/
+    background-color: #f0c1cb;
     margin: 20px;
 }
 .bestseller-box-card-img{
     width: 180px;
     display: block;
     border-radius: 100%;
-    box-shadow: 1px 1px 10px 5px black;
+    box-shadow: 1px 1px 10px 3px black;
     margin: 0px auto;
 }
 .bestseller-box-card-img:hover{
@@ -64,10 +66,11 @@ body{
 }
 .bestseller-box-card-price{
     text-align: center;
+    margin: 10px;
 }
 .bestseller-box-card-btn-1{
     border: 2px solid rgba(37,40,43,.08);
-    background-color: #f0c1cb;
+    background-color: #e698a9;
     padding: 6px 20px;
     cursor: pointer;
 }
@@ -83,6 +86,42 @@ body{
     color: wheat;
 }
 .bestseller-box-card-btn-2:hover{
-    background-color: #f0c1cb;
+    background-color: #e698a9;
     color: black;
+}
+.view-more-box{
+    background-color: #f0c1ca;
+    padding-bottom: 1px;
+}
+.view-more-box-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Papyrus", Fantasy;
+    padding-top: 30px;
+}
+.view-more-card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+.view-more-card-img{
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px black;
+    margin: 0px auto;
+}
+.view-more-card-img:hover{
+    transform: scale(1.1);
+    animation-direction: alternate;
+    transition: 0.5s;
+}
+.view-more-card-img-title{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+    font-family: "Papyrus", Fantasy;
+    font-weight: bold;
 }
