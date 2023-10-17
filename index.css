@@ -142,6 +142,29 @@ a{
     padding: 20px;
     box-shadow: 3px 1px 2px 1px #f0c1cb;
 }
+.footer{
+    margin-top: 30px;
+}
+.main-offer-img{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+
+.offer-img{
+    display: flex;
+    justify-content: space-around;
+}
+.offer-img1{
+    display: flex;
+    justify-content: space-around; 
+}
+.offer1-img{
+    height: 250px;
+    width: auto;
+    padding: 20px;
+    border-radius: 3px;
+}
 
 @media screen and (min-width:400px) and (max-width:768px){
     .start-line {
@@ -198,5 +221,14 @@ a{
         border-radius: 70px;
         padding: 15px;
     }
+    .main-offer-img{
+        height: 150px;
+        padding: 1px;
+    }
+    .offer1-img{
+        height: 65px;
+        padding: 10px;
+    }
+    
         
 }
