@@ -1,0 +1,90 @@
+body{
+    background-color: #6e5d6c;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.raw{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-info{
+    width: 50%;
+}
+.contact-info-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.home-img{
+    height: 25px;
+}
+.phone-img{
+    height: 25px;
+}
+.email-box{
+    height: 25px;
+}
+.contact-info-icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+h4{
+    color: aqua;
+    font-size: 20px;  
+}
+p{
+    margin-top: -10px;
+    color: bisque;
+}
+.contact-form{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
+    padding: 20px 25px;
+    width: 30%;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-box{
+    margin: 20px 2px;
+}
+.send-btn{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: aqua;
+    font-size: 17px;
+}
+.contact-form input{
+    padding: 8px;
+    margin: 10px px;
+    width: 94%;
+
+}
