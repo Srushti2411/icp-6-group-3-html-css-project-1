@@ -125,3 +125,20 @@ a{
     padding: 30px;
 }
 
+.Giva-heading{
+    text-align:center ; 
+}
+
+.jewelry_img{
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.jwel_img{
+    height: 450px;
+    width: 400px;
+    border-radius: 80px;
+    padding: 20px;
+}
