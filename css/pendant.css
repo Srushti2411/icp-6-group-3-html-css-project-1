@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #ebadb8;
     padding: 0;
     margin: 0;
 }
@@ -15,40 +15,71 @@ body{
     font-family:unset;
     font-size: 50px;
 }
-.main-card{
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-left: 65px;
-    
+.pendant-item-name{
+    font-family:cursive;
+    font-size: 30px;
+    text-align:left;
+    padding-left: 10px;
 }
-.card{
-    background-color: #9d5d39;
-    display:inline-block;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin:20px;
-    margin-left: 65px;
-    border-radius:10px;
-    height:290px;
-    width:290px;
-}
- .card-item{
+ 
+ .main-card{
+     background-color: #f0c1ca;
+     display: inline-flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ .card{
+    height:350px;
+    padding-top: 5px;
+ }
+ .pendant-img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-shadow: 0 0 20px black;
-    margin-top: 25px;
+ }
+ .pendant-name{
+    text-align: center;
+    font-family:cursive;
+ }
+ .pendant-card{
+    background-color: #f0c1ca;
+    border: none;
+    padding:20px ;
+    margin: 10px; 
+    margin-left: 18px;
+    height:430px;
+    width: 250px;
+    display: inline-block;
+
+ }
+ .card-img{
+    height:250px;
+    width: 200px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 15px black;
+ }
+ .del-btn{
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+ }
+ .buy-now-btn{
+    border: none;
+    background-color: #e698a9;
+    padding: 7px 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
     margin-bottom: 10px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    height:200px;
-    width:200px;
  }
- 
- .text-center{
-    text-align: center;
-    font-size: 23px;
+ .buy-now-btn:hover{
+    transition: 5s;
  }
- 
- 
+ .diamond-page-image{
+    height: 300px;
+    width: 100%;
+ }
