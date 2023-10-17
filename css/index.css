@@ -109,7 +109,6 @@ a{
 }
 .main-dropdown{
     display: flex;
-    background-color:;
     margin: 100px;
 }
 .custom-dropdown{
@@ -143,4 +142,33 @@ a{
     border-radius: 80px;
     padding: 20px;
     box-shadow: 3px 1px 2px 1px #f0c1cb;
+}
+
+@media screen and (min-width:400px) and (max-width:768px){
+    .start-line {
+        font-size: 12px;
+    }
+    .shop-name {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .page {
+        font-size: 11px;
+        padding: 2px 3px;
+        }
+    .page:hover {
+            font-size: 15px;
+            }
+    .icon {
+            height: 15px;
+            margin-right: 20px;
+          }
+    .icons {
+            margin-left: auto;
+            margin-right: auto;
+            }
 }
