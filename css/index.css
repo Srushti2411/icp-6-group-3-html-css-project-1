@@ -46,6 +46,11 @@ a{
         cursor: pointer;
         padding: 5px 20px;
         }
+.page:hover {
+            font-size: 19px;
+            box-shadow:#f0c1cb;
+            transition: 0.1s;
+            }
 .icons {
         display: flex;
         flex-direction: row-reverse;
@@ -87,6 +92,11 @@ a{
     margin-right: auto;
     border-radius: 100%;
 }
+.card_img:hover{
+    padding: 15px;
+    height: 190px;
+    transition: 0.3s;
+}
 .card_heading{
     color: #e18497  ;
     margin: 10px;
@@ -97,3 +107,21 @@ a{
 .desc{
     text-align: center;
 }
+.main-dropdown{
+    display: flex;
+    background-color:;
+    margin: 100px;
+}
+.custom-dropdown{
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    padding: 3px;
+    margin-top: 45px;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+.section-title{
+    padding: 30px;
+}
+
