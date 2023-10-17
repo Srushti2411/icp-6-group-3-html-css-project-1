@@ -102,7 +102,6 @@ a{
     margin: 10px;
     margin-top: 20px;
     text-align: center;
-    
 }
 .desc{
     text-align: center;
@@ -171,4 +170,33 @@ a{
             margin-left: auto;
             margin-right: auto;
             }
+    .img{
+                height: 350px;
+                width: 100%;
+            }
+    .card{
+                height: 300px;
+                width: 280px;
+            }
+            .card_img{
+                height: 140px;
+            }
+            .card_img:hover{
+                height: 150px;
+            }
+            .card_heading{
+                margin-top: 10px;
+                font-size: 20px; 
+            }
+    .Giva-heading{
+        font-size: 20px;
+    }
+
+    .jwel_img{
+        height: 180px;
+        width: auto;
+        border-radius: 70px;
+        padding: 15px;
+    }
+        
 }
