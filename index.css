@@ -102,14 +102,12 @@ a{
     margin: 10px;
     margin-top: 20px;
     text-align: center;
-    
 }
 .desc{
     text-align: center;
 }
 .main-dropdown{
     display: flex;
-    background-color:;
     margin: 100px;
 }
 .custom-dropdown{
@@ -117,7 +115,7 @@ a{
     height: 30px;
     width: 100px;
     padding: 3px;
-    margin-top: 45px;
+    margin-top: 25px;
     justify-content: space-around;
     margin-left: -20px;
 }
@@ -143,4 +141,94 @@ a{
     border-radius: 80px;
     padding: 20px;
     box-shadow: 3px 1px 2px 1px #f0c1cb;
+}
+.footer{
+    margin-top: 30px;
+}
+.main-offer-img{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+
+.offer-img{
+    display: flex;
+    justify-content: space-around;
+}
+.offer-img1{
+    display: flex;
+    justify-content: space-around; 
+}
+.offer1-img{
+    height: 250px;
+    width: auto;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+@media screen and (min-width:400px) and (max-width:768px){
+    .start-line {
+        font-size: 12px;
+    }
+    .shop-name {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .page {
+        font-size: 11px;
+        padding: 2px 3px;
+        }
+    .page:hover {
+            font-size: 15px;
+            }
+    .icon {
+            height: 15px;
+            margin-right: 20px;
+          }
+    .icons {
+            margin-left: auto;
+            margin-right: auto;
+            }
+    .img{
+                height: 350px;
+                width: 100%;
+            }
+    .card{
+                height: 300px;
+                width: 280px;
+            }
+            .card_img{
+                height: 140px;
+            }
+            .card_img:hover{
+                height: 150px;
+            }
+            .card_heading{
+                margin-top: 10px;
+                font-size: 20px; 
+            }
+    .Giva-heading{
+        font-size: 20px;
+    }
+
+    .jwel_img{
+        height: 180px;
+        width: auto;
+        border-radius: 70px;
+        padding: 15px;
+    }
+    .main-offer-img{
+        height: 150px;
+        padding: 1px;
+    }
+    .offer1-img{
+        height: 65px;
+        padding: 10px;
+    }
+    
+        
 }
