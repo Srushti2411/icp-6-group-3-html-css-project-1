@@ -10,16 +10,16 @@ body {
 
 .necklace-card {
 
-    width: 280px;
-    height: 360px;
-    border: 2px solid rgb(240, 206, 227);
-    padding: 10px;
-    font-family: "Gill Sans", sans-serif;
-    color: black;
-    background-color: #f0c1cb;
-    margin: 20px;
-
-
+        width: 280px;
+        height: 360px;
+        border: 2px solid rgb(240, 206, 227);
+        padding: 15px;
+        font-family: "Gill Sans", sans-serif;
+        color: black;
+        background-color: #f0c1cb;
+        margin: 20px;
+      
+        
 }
 
 .necklace-card-image {
