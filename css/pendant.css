@@ -1,114 +1,184 @@
-body{
-    background-color: #ebadb8;
-    padding: 0;
-    margin: 0;
+body {
+   background-color: #ebadb8;
+   padding: 0;
+   margin: 0;
 }
-.top-img{
-    height: 400px;
-    width: 100%;
-}
-.headding {
-    position: absolute;
-    padding-top: 180px;
-    padding-left: 300px;
-    color: rgb(255, 255, 255);
-    font-family:unset;
-    font-size: 50px;
-}
-.pendant-item-name{
-    font-family:"Papyrus", Fantasy;
-    font-size: 30px;
-    text-align:left;
-    padding-left: 10px;
-}
- 
- .main-card{
-     background-color: #f0c1ca;
-     display: inline-flex;
-     justify-content: space-around;
-     flex-wrap: wrap;
- }
- .card{
-    height:350px;
-    padding-top: 5px;
- }
- .pendant-img{
-    height:200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 0 0 20px black;
- }
- .pendant-img:hover{
-     transform: scale(0.99);
- }
- .pendant-name{
-    text-align: center;
-    font-family: "Gill Sans",sans-serif;
- }
- .offer-pendant-card{
-    background-color: #f0c1ca;
-    border: none;
-    padding:20px ;
-    margin: 10px; 
-    margin-left: 18px;
-    height:430px;
-    width: 250px;
-    display: inline-block;
- }
- .offer-pendant-card:hover{
-   box-shadow: 0 0 5px black;
- }
- .card-img{
-    height:250px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 15px black;
- }
-  .card-img:hover{
-   transform: scale(0.99);
-  }
- .del-btn{
-    color: rgb(97, 97, 97);
-    font-size: 15px;
- }
- .buy-now-btn{
-    border: none;
-    background-color: #e698a9;
-    padding: 7px 12px;
-    border-radius: 5px;
-    box-shadow: 0 0 3px black;
-    margin-bottom: 10px;
-    margin-left: 85px;
-    
- }
- .buy-now-btn:hover{
-   box-shadow: 0 0 8px black;
-   transform: scale(0.99);
-   background-color:black ;
-   color: azure;
- }
- .diamond-page-image{
-    height: 300px;
-    width: 100%;
- }
- .gold-add{
+
+.top-img {
+   height: 400px;
    width: 100%;
- }
- .pendant-card{
+   margin-top: 100px;
+}
+
+.headding {
+   position: absolute;
+   padding-top: 180px;
+   padding-left: 300px;
+   color: rgb(255, 255, 255);
+   font-family: unset;
+   font-size: 50px;
+}
+
+.pendant-item-name {
+   font-family: "Papyrus", Fantasy;
+   font-size: 30px;
+   text-align: left;
+   padding-left: 10px;
+}
+
+.main-card {
+   background-color: #f0c1ca;
+   display: inline-flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.card {
+   height: 350px;
+   padding-top: 5px;
+}
+
+.pendant-img {
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   margin: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-shadow: 0 0 20px black;
+}
+
+.pendant-img:hover {
+   transform: scale(0.99);
+}
+
+.pendant-name {
+   text-align: center;
+   font-family: "Gill Sans", sans-serif;
+}
+
+.offer-pendant-card {
    background-color: #f0c1ca;
    border: none;
-   padding:20px ;
-   margin: 10px; 
+   padding: 20px;
+   margin: 10px;
    margin-left: 18px;
-   height:400px;
+   height: 465px;
    width: 250px;
    display: inline-block;
 }
-.pendant-card:hover{
+
+.offer-pendant-card:hover {
    box-shadow: 0 0 5px black;
+}
+
+.card-img {
+   height: 250px;
+   width: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 0 15px black;
+}
+
+.card-img:hover {
+   transform: scale(0.99);
+}
+
+.del-btn {
+   color: rgb(97, 97, 97);
+   font-size: 15px;
+}
+
+.buy-now-btn {
+   border: none;
+   background-color: black;
+   padding: 8px 15px;
+   box-shadow: 0 0 3px #e698a9;
+   margin-bottom: 50px;
+   margin-left: 5px;
+   color: azure;
+}
+
+.buy-now-btn:hover {
+   box-shadow: 0 0 8px black;
+   transform: scale(0.99);
+   background-color: #e698a9;
+   color: black;
+   cursor: pointer;
+   border: 1px solid black;
+}
+
+
+.add-to-cart-btn {
+   border: none;
+   background-color: #e698a9;
+   padding: 8px 15px;
+   box-shadow: 0 0 3px black;
+   margin-bottom: 50px;
+   margin-left: 3px;
+}
+
+.add-to-cart-btn:hover {
+   box-shadow: 0 0 8px black;
+   transform: scale(0.99);
+   background-color: black;
+   color: azure;
+   cursor: pointer;
+}
+
+.icon {
+   margin-left: 230px;
+   background-color: rgb(228, 218, 218);
+   border-radius: 50%;
+   padding: 4px;
+}
+
+.icon:hover {
+   background-color: black;
+}
+
+.diamond-page-image {
+   height: 300px;
+   width: 100%;
+}
+
+.gold-add {
+   width: 100%;
+}
+
+.pendant-card {
+   background-color: #f0c1ca;
+   border: none;
+   padding: 20px;
+   margin: 10px;
+   margin-left: 18px;
+   height: 430px;
+   width: 250px;
+   display: inline-block;
+}
+
+.pendant-card:hover {
+   box-shadow: 0 0 5px black;
+}
+
+.change1 {
+   height: 20px;
+   margin-right: 20px;
+}
+
+@media screen and (min-width:500px) and (max-width: 768px) {
+
+   .headding {
+      padding-left: 100px;
+      font-size: 30px;
+   }
+
+   .pendant-item-name {
+      font-size: 20px;
+   }
+
+   .card-img {
+      width: 150px;
+   }
 }

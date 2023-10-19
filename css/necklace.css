@@ -5,7 +5,8 @@ body{
 }
 .navbar-image{
 height:100%;
-width:1360px;
+width:100%;
+margin-top: 100px;
 }
 .necklace-card{
 

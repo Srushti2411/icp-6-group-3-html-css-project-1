@@ -1,5 +1,5 @@
 body{
-    background-color: #6e5d6c;
+    background-color: #ebadb8;
     margin: 0px;
     padding: 0px;
 }
@@ -8,7 +8,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.section-header{
+.header-section{
     margin-bottom: 50px;
     text-align: center;
 }
@@ -50,14 +50,15 @@ h2{
     background-color: white;
     text-align: center;
     margin: 20px;
+    cursor: pointer;
 }
 h4{
-    color: aqua;
     font-size: 20px;  
 }
 p{
     margin-top: -10px;
-    color: bisque;
+    font-size: 20px;
+    /* text-align: center; */
 }
 .contact-form{
     background-color: white;
@@ -79,8 +80,9 @@ h3{
     border: 3px solid black;
     border-radius: 20px;
     padding: 5px 30px;
-    background-color: aqua;
+    background-color: #e69a98;
     font-size: 17px;
+    cursor: pointer;
 }
 .contact-form input{
     padding: 8px;

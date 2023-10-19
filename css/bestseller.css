@@ -139,3 +139,60 @@ body{
     font-family: "Papyrus", Fantasy;
     font-weight: bold;
 }
+@media screen and (max-width:768px) {
+    .start-box-img{
+        margin-top: 140px;
+    }
+    .bestseller-box{
+        margin: 15px auto;
+        padding: 0px 0px;
+    }
+    .bestseller-box-title{
+        font-size: 30px;
+    }
+    .bestseller-box-card-box{
+        margin-top: 10px;
+    }
+    .bestseller-box-card{
+        width: 410px;
+        margin: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bestseller-box-card-img{
+        width: 180px;
+    }
+    .bestseller-box-card-title-dis-price{
+        width: 210px;
+    }
+    .bestseller-box-card-img-title{
+        font-size: 18px;
+        margin: 5px;
+    }
+    .bestseller-box-card-btn-1{
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+    .bestseller-box-card-btn-2{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .view-more-box-title{
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .view-more-card{
+        margin-bottom: 20px;
+    }
+    .view-more-card-box{
+        margin: 30px auto;
+    }
+    .view-more-card-img{
+        width: 170px;
+    }
+    .view-more-card-img-title{
+        font-size: 20px;
+        margin: 1px;
+    }   
+}
+    
