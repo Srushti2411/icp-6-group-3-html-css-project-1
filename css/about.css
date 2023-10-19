@@ -1,44 +1,68 @@
-colgroup{
+colgroup {
     color: #f0abb7;
     color: #6c6666;
     color: #56568f;
     color: wheat;
 }
-body{
-    background-color:#ebadb8 ;
+
+body {
+    background-color: #ebadb8;
     margin: 0;
     padding: 0;
-    }
-    h1{
-     margin-top: 60px;
-     font-size: 40px;
-     text-align: center;
-    }
-    .about-us{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
-.about-img{
-    width: 500px ;
-    margin-right: 100px;
+}
+.main-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    margin-top: -100px;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+     
+}
+
+.about-container {
+    margin-top: 100px;
+    z-index: 5;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.about-img {
+    width: 500px;
+    margin-right: 90px;
     border-radius: 8px;
     border: #6c6666;
     box-shadow: 0 0 5px 5px #4d4a4a;
 }
-.about-img:hover{
-    border-radius:15px ;
+
+.about-img:hover {
+    border-radius: 15px;
     padding: 10px;
     transition: 0.5s;
 }
-.about-information{
+
+.about-information {
     margin-left: 100px;
     width: 600px;
     font-size: 20px;
     text-align: justify;
 }
-.more-btn{
+
+.more-btn {
     font-size: 15px;
     border: 2px solid gray;
     border-radius: 20px;
@@ -47,38 +71,44 @@ body{
     left: 120px;
     bottom: -20px;
 }
-.more-btn:hover{
-   background-color:gray;
-   color:bisque;
-   cursor: pointer;
-   
+
+.more-btn:hover {
+    background-color: gray;
+    color: bisque;
+    cursor: pointer;
+
 }
-.our-goals{
+
+.our-goals {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
-.goal-img{
+
+.goal-img {
     margin-left: 100px;
-    width: 500px ;
+    width: 500px;
     border-radius: 8px;
     border: #6c6666;
     box-shadow: 0 0 5px 5px #4d4a4a;
-    }
-.goal-img:hover{
-    border-radius:15px ;
+}
+
+.goal-img:hover {
+    border-radius: 15px;
     padding: 10px;
     transition: 0.5s;
 
 }
-.our-goals-information{
+
+.our-goals-information {
     margin-right: 100px;
     width: 600px;
     font-size: 20px;
     text-align: justify;
 }
-.details-btn{
+
+.details-btn {
     font-size: 15px;
     border: 2px solid gray;
     border-radius: 20px;
@@ -88,23 +118,27 @@ body{
     right: 580px;
     bottom: 20px;
 }
-.details-btn:hover{
+
+.details-btn:hover {
     color: bisque;
     background-color: gray;
     cursor: pointer;
 }
-.card-container{
+
+.card-container {
     /* background-color: #f0c1cb; */
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.card-description{
+
+.card-description {
     background-color: #f0c1cb;
     width: 250px;
-    padding: 15px 0px ;
+    height: 350px;
+    padding: 5px;
     margin: 30px;
     border: 2px solid grey;
     display: flex;
@@ -115,24 +149,32 @@ body{
     border-radius: 5px;
     box-shadow: 3px 0 2px 5px black;
 }
-.card-description:hover{
+
+.card-description:hover {
     background-color: #6b6868;
-    transition: 0,5s;
+    transition: 0, 5s;
     box-shadow: 0 0 5px 3px #883446;
 }
 
-.team-member-img{
+.team-member-img {
+    margin-top: -20px;
+    /* border: 3px solid black; */
     width: 100px;
     border-radius: 50%;
 
 }
-.card-description p{
+
+.card-description p {
     text-align: center;
+    margin-top: 50px;
 }
-h2{
+
+.card-description h2 {
+    margin-top: 20px;
     border: 3px solid red;
 }
-.connect-contact{
+
+.connect-contact {
     font-size: 20px;
     font-family: Gill Sans;
     text-align: center;
