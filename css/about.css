@@ -10,14 +10,22 @@ body {
     margin: 0;
     padding: 0;
 }
+.main-container{
+    margin: 0px;
+    padding: 0px;
+}
 
 .nav-container {
-    margin-top: -80px;
+    margin-top: -100px;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+     
 }
 
 .about-container {
     margin-top: 100px;
-
+    z-index: 5;
 }
 
 h1 {
@@ -35,7 +43,7 @@ h1 {
 
 .about-img {
     width: 500px;
-    margin-right: 100px;
+    margin-right: 90px;
     border-radius: 8px;
     border: #6c6666;
     box-shadow: 0 0 5px 5px #4d4a4a;
