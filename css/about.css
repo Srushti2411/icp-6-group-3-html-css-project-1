@@ -5,7 +5,7 @@ colgroup{
     color: wheat;
 }
 body{
-    background-color:pink ;
+    background-color:#ebadb8 ;
     margin: 0;
     padding: 0;
     }
@@ -25,7 +25,12 @@ body{
     margin-right: 100px;
     border-radius: 8px;
     border: #6c6666;
-    box-shadow: 0 0 5px #56568f;
+    box-shadow: 0 0 5px 5px #4d4a4a;
+}
+.about-img:hover{
+    border-radius:15px ;
+    padding: 10px;
+    transition: 0.5s;
 }
 .about-information{
     margin-left: 100px;
@@ -40,10 +45,10 @@ body{
     padding: 8px 20px;
     position: absolute;
     left: 120px;
-    bottom: 20px;
+    bottom: -20px;
 }
 .more-btn:hover{
-   background-color:orangered;
+   background-color:gray;
    color:bisque;
    cursor: pointer;
    
@@ -54,14 +59,19 @@ body{
     align-items: center;
     position: relative;
 }
-    .goal-img{
-        margin-left: 100px;
-        width: 500px ;
-        border-radius: 8px;
-        border: #6c6666;
-        box-shadow: 0 0 5px #56568f;
+.goal-img{
+    margin-left: 100px;
+    width: 500px ;
+    border-radius: 8px;
+    border: #6c6666;
+    box-shadow: 0 0 5px 5px #4d4a4a;
     }
+.goal-img:hover{
+    border-radius:15px ;
+    padding: 10px;
+    transition: 0.5s;
 
+}
 .our-goals-information{
     margin-right: 100px;
     width: 600px;
@@ -73,17 +83,18 @@ body{
     border: 2px solid gray;
     border-radius: 20px;
     position: absolute;
+    /* margin-top: 30px; */
     padding: 8px 20px;
     right: 580px;
-    bottom: 30px;
+    bottom: 20px;
 }
 .details-btn:hover{
     color: bisque;
-    background-color: orangered;
+    background-color: gray;
     cursor: pointer;
 }
 .card-container{
-    /* background-color: red; */
+    /* background-color: #f0c1cb; */
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -91,6 +102,7 @@ body{
     
 }
 .card-description{
+    background-color: #f0c1cb;
     width: 250px;
     padding: 15px 0px ;
     margin: 30px;
@@ -101,10 +113,27 @@ body{
     justify-content: center;
     text-align: center;
     border-radius: 5px;
+    box-shadow: 3px 0 2px 5px black;
+}
+.card-description:hover{
+    background-color: #6b6868;
+    transition: 0,5s;
+    box-shadow: 0 0 5px 3px #883446;
 }
 
 .team-member-img{
     width: 100px;
     border-radius: 50%;
 
+}
+.card-description p{
+    text-align: center;
+}
+h2{
+    border: 3px solid red;
+}
+.connect-contact{
+    font-size: 20px;
+    font-family: Gill Sans;
+    text-align: center;
 }
