@@ -7,6 +7,12 @@ Your one-stop shop for all your fashion needs!
 https://github.com/Srushti2411/icp-6-group-3-html-css-project-1.git
 
 ## Screenshots
+![Screenshot 1](./img/homepage.jpeg)
+![Screenshot 2]()
+![Screenshot 1]()
+![Screenshot 1]()
+![Screenshot 1]()
+
 
 
 
