@@ -29,11 +29,7 @@ margin-top: 100px;
         box-shadow: 1px 1px 10px 5px black;
         margin: 0px auto;
     }
-    .bestseller-box-card-img:hover {
-        transform: scale(1.05);
-        animation-direction: alternate;
-        transition: 0.5s;
-    }
+   
 
 .necklace-card-title {
 text-align: center;
@@ -87,9 +83,11 @@ align-items:center;
 margin-left: 100px;
 flex-wrap: wrap                                                                                                                                                                                                                                                                                                                                          ;
 }
+
+
 .treanding-necklace-title{
 text-align: center;
-font-size: 30px;
+font-size: 34px;
 font-family:  "Papyrus", Fantasy;
 color: black;
 }
@@ -99,18 +97,19 @@ color: black;
     
     box-shadow: 1px 1px 10px 5px black;
     margin: 0px auto;
+  
 
 }
 .footer-img-card{
  width:600px;
-height: 330px;
+height: 340px;
 border: 2px solid rgb(240, 206, 227);
 padding: 15px;
 font-family: "Gill Sans", sans-serif;
 color: black;
 background-color: #f0c1cb;
 margin-left: 350px;
-margin-bottom: 20px;
+margin-bottom: 30px;
 
 }
 .yellow-diamond-price{
@@ -126,6 +125,7 @@ margin-bottom: 20px;
     cursor: pointer;
     display: inline-flex;
     margin-left: 160px;
+   
     
 }
 .yellow-diamond-btn-2{
@@ -136,6 +136,8 @@ margin-bottom: 20px;
     color: wheat;
     display: inline-flex;
     flex-wrap: wrap;
+   
+    
 }
 
 .yellow-diamond-btn-1:hover{
@@ -146,6 +148,7 @@ margin-bottom: 20px;
     background-color: #f0c1cb;
     color: black;
 }
+
 
 
 
