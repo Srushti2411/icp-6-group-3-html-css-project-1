@@ -36,12 +36,14 @@ text-align: center;
 font-size: 25px;
 font-family:  "Papyrus", Fantasy;
 color: black;
+margin-top: 15px;
 }
 .necklace-card-price {
 text-align: center;
 font-family: "Gill Sans", sans-serif; 
 font-size: 15px;
 color: black;
+margin-top: 20px;
 }
 
 .necklace-card-btn-1 {
@@ -51,6 +53,7 @@ color: black;
     cursor: pointer;
     display: inline-flex;
     margin-left: 23px;
+    margin-top: 20px;
     
 }
 
@@ -62,7 +65,7 @@ color: black;
     color: wheat;
     display: inline-flex;
     flex-wrap: wrap;
-   
+    margin-top: 10px;
    
  
 }
@@ -116,7 +119,8 @@ margin-bottom: 30px;
     text-align: center;
     font-family: "Gill Sans", sans-serif; 
     font-size: 20px;
-    color: black;  
+    color: black; 
+    margin-top: 10px; 
 }
 .yellow-diamond-btn-1{
     border: 2px solid rgba(37,40,43,.08);
@@ -124,8 +128,8 @@ margin-bottom: 30px;
     padding: 8px 15px;
     cursor: pointer;
     display: inline-flex;
-    margin-left: 160px;
-   
+    margin-left: 200px;
+   margin-top: 10px;
     
 }
 .yellow-diamond-btn-2{
@@ -136,6 +140,8 @@ margin-bottom: 30px;
     color: wheat;
     display: inline-flex;
     flex-wrap: wrap;
+ 
+    margin-top: 10px;
    
     
 }
