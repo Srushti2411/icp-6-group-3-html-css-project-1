@@ -33,11 +33,23 @@ body {
    flex-wrap: wrap;
 }
 
-.card {
+.cards {
    height: 350px;
    padding-top: 5px;
 }
-
+h4{
+   text-align: center;
+   margin-top: 10px;
+}
+p{
+   margin-top: 10px;
+}
+.all-pendant-cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  
+}
 .pendant-img {
    height: 200px;
    width: 200px;
@@ -63,7 +75,7 @@ body {
    padding: 20px;
    margin: 10px;
    margin-left: 18px;
-   height: 465px;
+   height: 410px;
    width: 250px;
    display: inline-block;
 }
@@ -73,11 +85,13 @@ body {
 }
 
 .card-img {
-   height: 250px;
+   height: 200px;
    width: 200px;
+   border-radius: 50%;
    display: block;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 15px;
    box-shadow: 0 0 15px black;
 }
 
@@ -97,6 +111,7 @@ body {
    box-shadow: 0 0 3px #e698a9;
    margin-bottom: 50px;
    margin-left: 5px;
+   margin-top: 15px;
    color: azure;
 }
 
@@ -117,6 +132,7 @@ body {
    box-shadow: 0 0 3px black;
    margin-bottom: 50px;
    margin-left: 3px;
+   margin-top: 15px;
 }
 
 .add-to-cart-btn:hover {
@@ -153,7 +169,7 @@ body {
    padding: 20px;
    margin: 10px;
    margin-left: 18px;
-   height: 430px;
+   height: 380px;
    width: 250px;
    display: inline-block;
 }
