@@ -1,35 +1,42 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    background-color:#ebadb8;
+    background-color: #ebadb8;
 }
-.navbar-image{
-height:100%;
-width:100%;
-margin-top: 100px;
-}
-.necklace-card{
 
-        width: 300px;
-        height: 360px;
-        border: 2px solid rgb(240, 206, 227);
-        padding: 15px;
-        font-family: "Gill Sans", sans-serif;
-        color: black;
-        background-color: #f0c1cb;
-        margin: 20px;
-      
-        
+.navbar-image {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.necklace-card {
+
+    width: 300px;
+    height: 360px;
+    border: 2px solid rgb(240, 206, 227);
+    padding: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    background-color: #f0c1cb;
+    margin: 20px;
+
+
 }
 
 .necklace-card-image {
-        width: 150px;
-        display: block;
-        border-radius: 100%;
-        box-shadow: 1px 1px 10px 5px black;
-        margin: 0px auto;
-    }
-   
+    width: 150px;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 5px black;
+    margin: 0px auto;
+}
+
+.bestseller-box-card-img:hover {
+    transform: scale(1.05);
+    animation-direction: alternate;
+    transition: 0.5s;
+}
 
 .necklace-card-title {
 text-align: center;
@@ -37,6 +44,7 @@ font-size: 25px;
 font-family:  "Papyrus", Fantasy;
 color: black;
 }
+
 .necklace-card-price {
 text-align: center;
 font-family: "Gill Sans", sans-serif; 
@@ -45,8 +53,8 @@ color: black;
 }
 
 .necklace-card-btn-1 {
-  border: 2px solid rgba(37,40,43,.08);
-    background-color: #e698a9 ;
+    border: 2px solid rgba(37, 40, 43, .08);
+    background-color: #e698a9;
     padding: 8px 15px;
     cursor: pointer;
     display: inline-flex;
@@ -54,7 +62,7 @@ color: black;
     
 }
 
-.necklace-card-btn-2{
+.necklace-card-btn-2 {
     border: 2px solid #25282b;
     padding: 8px 15px;
     cursor: pointer;
@@ -66,61 +74,65 @@ color: black;
    
  
 }
-.necklace-card-btn-1:hover{
+
+.necklace-card-btn-1:hover {
     background-color: #25282b;
     color: wheat;
 }
-.necklace-card-btn-2:hover{
+
+.necklace-card-btn-2:hover {
     background-color: #f0c1cb;
     color: black;
 }
 
 
-.necklace-container{
-display:flex;
-justify-content:row;
-align-items:center;  
-margin-left: 100px;
-flex-wrap: wrap                                                                                                                                                                                                                                                                                                                                          ;
+.necklace-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-
-.treanding-necklace-title{
-text-align: center;
-font-size: 34px;
-font-family:  "Papyrus", Fantasy;
-color: black;
+.treanding-necklace-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Papyrus", Fantasy;
+    color: black;
 }
-.footer-img{
+
+.footer-img {
     width: 450px;
     display: block;
-    
+
     box-shadow: 1px 1px 10px 5px black;
     margin: 0px auto;
   
 
 }
-.footer-img-card{
- width:600px;
-height: 340px;
-border: 2px solid rgb(240, 206, 227);
-padding: 15px;
-font-family: "Gill Sans", sans-serif;
-color: black;
-background-color: #f0c1cb;
-margin-left: 350px;
-margin-bottom: 30px;
+
+.footer-img-card {
+    width: 600px;
+    height: 330px;
+    border: 2px solid rgb(240, 206, 227);
+    padding: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    background-color: #f0c1cb;
+    margin-left: 350px;
+    margin-bottom: 20px;
 
 }
-.yellow-diamond-price{
+
+.yellow-diamond-price {
     text-align: center;
-    font-family: "Gill Sans", sans-serif; 
+    font-family: "Gill Sans", sans-serif;
     font-size: 20px;
     color: black;  
 }
-.yellow-diamond-btn-1{
-    border: 2px solid rgba(37,40,43,.08);
-    background-color: #e698a9 ;
+
+.yellow-diamond-btn-1 {
+    border: 2px solid rgba(37, 40, 43, .08);
+    background-color: #e698a9;
     padding: 8px 15px;
     cursor: pointer;
     display: inline-flex;
@@ -128,7 +140,8 @@ margin-bottom: 30px;
    
     
 }
-.yellow-diamond-btn-2{
+
+.yellow-diamond-btn-2 {
     border: 2px solid #25282b;
     padding: 8px 15px;
     cursor: pointer;
@@ -136,19 +149,18 @@ margin-bottom: 30px;
     color: wheat;
     display: inline-flex;
     flex-wrap: wrap;
+ 
+    margin-top: 10px;
    
     
 }
 
-.yellow-diamond-btn-1:hover{
+.yellow-diamond-btn-1:hover {
     background-color: #25282b;
     color: wheat;
 }
-.yellow-diamond-btn-2:hover{
+
+.yellow-diamond-btn-2:hover {
     background-color: #f0c1cb;
     color: black;
 }
-
-
-
-
