@@ -4,7 +4,7 @@
 Your one-stop shop for all your fashion needs!
 
 ## URL
-https://github.com/Srushti2411/icp-6-group-3-html-css-project-1.git
+https://glitzzjwellers.vercel.app/
 
 ## Screenshots
 ![Screenshot 1](./img/homepage.jpeg)
